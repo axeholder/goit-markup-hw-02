@@ -1,2 +1,2 @@
-# goit-markup-hw-01
- Домашнее задание №1 курса "HTML+CSS online 31"
+# goit-markup-hw-02
+ Домашнее задание №2 курса "HTML+CSS online 31"
