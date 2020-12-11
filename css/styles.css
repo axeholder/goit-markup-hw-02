@@ -1,0 +1,99 @@
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Roboto, sans-serif;
+}
+/* основной цвет текста 757575, 100 % */
+/* вторичный цвет текста 212121, 100 % */
+/* акцент 2196F3, 100 % */
+/* лого хедер 000000, 100 % */
+
+/* фон FFFFFF, 100% */
+/* футер + герой 2F303A, 100% */
+
+a {
+  text-decoration: none;
+}
+/* убираем точки из списков */
+ul {
+  list-style: none;
+}
+/* стилизация лого */
+.logo {
+  color: #000000;
+}
+.logo-web {
+  color: #2196f3;
+}
+/* навигация */
+.site-nav a {
+  color: var(--secondary-text-color);
+}
+
+.site-nav a.current {
+  color: var(--accent-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* контакты хедер */
+.contact-me {
+  color: var(--main-text-color);
+}
+
+.contact-me:hover,
+.contact-me:focus {
+  color: var(--accent-color);
+}
+
+/* герой */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* особенности */
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+.features-list .title {
+  color: var(--secondary-text-color);
+}
+
+/* наша команда */
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.ot-list .title {
+  color: var(--secondary-text-color);
+}
+
+/* подвал */
+footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+}
+.adress {
+  color: #ffffff;
+}
+.adress a {
+  color: rgba(255, 255, 255, 0.6);
+}
