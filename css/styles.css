@@ -26,14 +26,26 @@ ul {
 }
 /* стилизация лого */
 .logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.h-studio {
   color: #000000;
 }
-.logo-web {
-  color: #2196f3;
+.f-studio {
+  color: #ffffff;
 }
 /* навигация */
 .site-nav a {
   color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .site-nav a.current {
@@ -48,6 +60,10 @@ ul {
 /* контакты хедер */
 .contact-me {
   color: var(--main-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .contact-me:hover,
@@ -60,19 +76,46 @@ ul {
   background-color: #2f303a;
   color: #ffffff;
 }
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+
+  text-transform: uppercase;
+}
 
 .button {
   background-color: var(--accent-color);
   color: #ffffff;
+  font-family: inherit;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /* особенности */
 .section-title {
   color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .features-list .title {
   color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.features-list .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* наша команда */
@@ -82,18 +125,67 @@ ul {
 
 .ot-list .title {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+.ot-list .position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
 }
 
 /* подвал */
 footer {
   background-color: #2f303a;
 }
-.footer-logo {
-  color: #ffffff;
-}
+
 .adress {
   color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .adress a {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* кнопки портфолио */
+.button-secondary {
+  background-color: #f5f4fa;
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* портфолио */
+
+.portfolio-list .title {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio-list p {
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
